@@ -1,7 +1,7 @@
 # RoboScript #1 - Implement Syntax Highlighting
 
 
-URL = https://www.codewars.com/kata/58708934a44cfccca60000c4
+Problem URL: https://www.codewars.com/kata/58708934a44cfccca60000c4
 
 ## Disclaimer
 The story presented in this Kata Series is purely fictional; any resemblance to actual programming languages, products, organisations or people should be treated as purely coincidental.

@@ -1,6 +1,6 @@
 ##Highest Scoring Word
 
-url = https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/python
+Problem URL: https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/python
 
 Given a string of words, you need to find the highest scoring word.
 
