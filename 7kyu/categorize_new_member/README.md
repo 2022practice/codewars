@@ -13,6 +13,7 @@ Input will consist of a list of pairs. Each pair contains information for a sing
 ### Output
 
 Output will consist of a list of string values (in Haskell: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
+
 ##Example
 ```python
 input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
