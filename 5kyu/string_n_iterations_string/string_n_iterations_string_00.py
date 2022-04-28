@@ -8,13 +8,15 @@ def get_evens(s):
 def get_odds(s):
     return ''.join(char for idx,char in enumerate(s) if idx%2 != 0)
 
-def jumbled_string(s, n):
-    s = get_evens(s) + get_odds(s)    
+def jumbled_string(s, n): 
+    s = get_evens(s) + get_odds(s) 
     if n == 1:
         return s
-    for num in range(1,n):
-        n -= 1
-        s = get_evens(s) + get_odds(s)
+    i = 0 
+    for num in range(0,n): 
+        print (s,i) 
+        s = get_evens(s) + get_odds(s)  
+        i += 1 
     return s
 
 # this 'solution' doesn't attempt too, but also passed the test cases
