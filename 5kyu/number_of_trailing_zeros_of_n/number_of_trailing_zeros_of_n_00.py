@@ -1,18 +1,4 @@
-from math import factorial
-from math import log
-from math import floor
-# not efficient
-
-def zeros_(n):
-    ceros = []
-    for num in reversed(str(factorial(n))):
-        if num == '0':
-            ceros.append(num)
-        else:
-            break
-    return len(ceros)
-
-# I use the formula to calculate trailing zeros in n!
+from math import log, floor
 
 def zeros(n):
     if n == 0:
